@@ -1,0 +1,133 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Billing and Shipping Information</title></head>
+  <body>
+<form action="http://www.qmul.ac.uk/" method="get">
+<h3>Shipping Address</h3>
+
+  <p>
+  First name: <input type = "text" name="first_name" size="25" maxlength="20"/>
+  </p>
+
+  <p>
+  Last name: <input type = "text" name="last_name" size="25" />
+  </p>
+
+  <p>
+  Address Line 1: <input type = "text" name="address1" size="25" />
+  </p>
+
+  <p>
+  Address Line 2: <input type = "text" name="address2" size="25" />
+  </p>
+
+  <p>
+  City: <input type = "text" name="city" size="20" />
+  </p>
+
+  <p>
+  Country: <input type = "text" name="country" size="15" />
+</p>
+
+  <p>
+  Postcode: <input type = "text" name="postcode" size="9" maxlength="6"/>
+  </p>
+
+  <h3>Billing Address</h3>
+
+    <p>
+    First name: <input type = "text" name="first_name_bill" size="25" maxlength="20"/>
+    </p>
+
+    <p>
+    Last name: <input type = "text" name="last_name_bill" size="25" />
+    </p>
+
+    <p>
+    Address Line 1: <input type = "text" name="address1_bill" size="25" />
+    </p>
+
+
+    <p>
+    Address Line 2: <input type = "text" name="address2_bill" size="25" />
+    </p>
+
+
+    <p>
+    City: <input type = "text" name="city_bill" size="20" />
+    </p>
+
+
+    <p>
+    Country: <input type = "text" name="country_bill" size="15" />
+    </p>
+
+
+    <p>
+    Postcode: <input type = "text" name="postcode_bill" size="9" maxlength="6"/>
+    </p>
+
+  <h3>Credit Card Information</h3>
+
+  <p>
+  Credit Card Type:
+  <select name ="card">
+    <option value ="select" selected="selected">
+      Select a Credit Card
+    </option>
+   <option value ="visa">
+     Visa
+   </option>
+   <option value ="master" >
+     Mastercard
+   </option>
+    <option value ="discoer">
+    Discover
+    </option>
+    <option value ="american">
+    American Express
+    </option>
+    </select>
+    <br />
+  </p>
+
+  <p>
+  Name (as it appears on the card): <input type = "text" name="cardName" size="25" />
+  </p>
+
+
+  <p>
+  Card Number (no dashes or spaces): <input type = "text" name="cardNum" size="25" />
+  </p>
+
+
+  <p>
+  Expiration (MM/YYYY): <input type = "text" name="exp" size="7" maxlength="7"/>
+  </p>
+
+  <h3>Contact Information</h3>
+
+  <p>
+  Email: <input type = "text" name="email" size="25" />
+  </p>
+
+
+  <p>
+  Phone Number (no spaces or dashes): <input type = "text" name="phone" size="14" maxlength="13"/>
+  </p>
+
+<p>
+  Please keep me informed about future product offerings:
+<input type="checkbox" name="check" value="yes" checked="checked" />
+</p>
+
+<p>
+<input type ="submit" name ="do it" value="Submit Form" />
+<input type ="reset" value="Reset Form" />
+</p>
+
+</form>
+  </body>
+  </html>

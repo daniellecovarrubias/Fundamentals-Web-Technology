@@ -1,0 +1,7 @@
+div { background-color: silver }
+strong { font-size: 24pt }
+p, ul { background-color: silver; font-size: 24pt }
+#cool, .shiny { background-color: silver }
+span.bigger { font-size: 24pt }
+span span { font-size: 24pt }
+a:hover { background-color: silver }

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>My homepage CSS Complex Two Column</title>
+	<meta name="description" content="How to create a simple two column CSS layout with full width header and footer.">
+	<meta name="copyright" content="Copyright (c) 2004 Roger Johansson">
+	<meta name="author" content="Roger Johansson">
+	<style type="text/css" media="screen, print, projection">
+	body,
+	html {
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#a7a09a;
+	}
+	#wrap {
+		width:750px;
+		margin:0 auto;
+		background:#9c9;
+	}
+	#header {
+    	padding:5px 10px;
+		background:#ddd;
+	}
+	h1 {
+	    margin:0;
+    }
+	#main {
+		float:left;
+		width:70%;
+    height:300px;
+    margin:0 auto;
+		padding:10px;
+		background:#9c9;
+	}
+	h2 {
+		margin:0 0 1em;
+	}
+	#sidebar {
+		float:right;
+		width:20%;
+    height:300px;
+		padding:10px;
+		background:#99c;
+	}
+	#footer {
+		clear:both;
+		padding:5px 10px;
+		background:#cc9;
+	}
+	#footer p {
+		margin:0;
+    }
+	* html #footer {
+		height:1px;
+	}
+	</style>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+    <table>
+      <tr>
+        <td width="10%" align="left"><img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAAx4AAAAJDRhN2Q1ZTRlLWZjYzgtNDE0YS1iMmZjLTczMDM0NzI4MTZhZA.jpg" alt="Me" width="115" height="115"/></td>
+        <td width="90%" align="left" valign="center">
+          Danielle Covarrubias<br>
+          Student<br>
+          Department of Computer Engineering<br>
+          University of Minnesota, Twin Cities<br>
+          Email: covar014@umn.edu
+        </td>
+      </tr>
+    </table>
+  </div>
+	<div id="main">
+    <p><br>
+      You can download my CV at <a href = "my_CV2.html">here</a>.
+    </p>
+  </div>
+	<div id="sidebar">
+		<ul>
+			<li><a href="Week5Homepage.html">Home</a></li>
+			<li><a href="Week5About.html">About myself</a></li>
+			<li><a href="Week5Hobby.html">My hobby</a></li>
+			<li><a href="Week5CV.html">My CV</a></li>
+			<li><a href="Week5Links.html">Links</a></li>
+		</ul>
+	</div>
+	<div id="footer">
+		<p>Last updated 05/02/2018</p>
+	</div>
+</div>
+</body>
+</html>

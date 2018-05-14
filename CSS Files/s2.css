@@ -1,0 +1,4 @@
+@import 's3.css';
+p, ul { background-color: silver; font-size: 24pt }
+#cool, .shiny { background-color: silver }
+span.bigger { font-size: 24pt }

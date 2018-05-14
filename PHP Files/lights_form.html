@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head> <title> Light Bulbs</title></head>
+  <body>
+<form action="lights_form.php" method="post">
+
+
+  <p>
+  Name: <input type = "text" name="name" size="28" maxlength="25"/>
+  </p>
+
+  <p>
+  Light Bulbs:
+  <br/>
+  <input type="checkbox" name="bulbs[]" value="four_reg"/> Four 100-watt light bulbs for $2.39
+  <br/>
+  <input type="checkbox" name="bulbs[]" value="eight_reg"/> Eight 100-watt light bulbs for $4.29
+  <br/>
+  <input type="checkbox" name="bulbs[]" value="four_longLife"/> Four 100-watt long-life light bulbs for $3.95
+  <br/>
+  <input type="checkbox" name="bulbs[]" value="eight_longLife"/> Eight 100-watt long-life light bulbs for $7.49
+  </p>
+
+
+  <p>
+  Number of Battery Packs ($10.42 each) : <input type = "text" name="battery" size="3"/>
+  </p>
+
+  <p>
+  Credit Card Type:
+  <br/>
+  <input type = "radio" name ="card" value = "Visa" checked="checked"/> Visa
+  <input type = "radio" name ="card" value = "MasterCard" /> MasterCard
+  <input type = "radio" name ="card" value = "AmericanExpress" /> AmericanExpress
+  </p>
+
+
+
+
+<p>
+<input type ="submit" name ="do it" value="Submit Form" />
+<input type ="reset" value="Reset Form" />
+</p>
+
+</form>
+  </body>
+  </html>
